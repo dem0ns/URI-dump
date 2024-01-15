@@ -1,0 +1,29 @@
+<html lang="zh-cn">
+<head>
+    <script src="index.js"></script>
+    <title>URI Dump</title>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            width: 100%;
+        }
+        div.group {
+            border: black solid 1px;
+            padding: 20px;
+        }
+        textarea {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="group">
+    <p>URI</p>
+    <textarea oninput="uri_changed(this)" id="uri">https://example/admin/?xyz=abc&p=q&url=https://xxx.com/xxxx#lalala</textarea>
+</div>
+
+</body>
+</html>
